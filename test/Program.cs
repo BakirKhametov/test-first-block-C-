@@ -27,10 +27,10 @@ void ThreeOrLessElementMassive (string[] array, string[] newArray)
     }
 }
 
-void PrintArray(string[] array)
+void PrintArray(string[] newArray)
 {
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < newArray.Length; i++)
     {
-        Console.Write($"[{array[i]}] | ");
+        Console.Write($"[{newArray[i]}] | ");
     }
 }
